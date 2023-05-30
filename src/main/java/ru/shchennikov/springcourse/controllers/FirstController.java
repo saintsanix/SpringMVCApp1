@@ -11,7 +11,7 @@ public class FirstController {
     public String helloPage() {
         return "first/hello";
     }
-
+//1
     @GetMapping("/goodbye")
     public String goodByePage() {
         return "first/goodbye";
